@@ -1,0 +1,141 @@
+h1 {
+  margin: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #186a91;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.panel {
+  position: relative;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .25) 0 1px 6px;
+  background-color: #10aa9d;
+  margin: 15px;
+  padding: 10px;
+  width: 664px;
+  height: 400px;
+  z-index: 10;
+}
+
+
+.internalPanel {
+  position: relative;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .25) 0 1px 6px;
+  background-color: rgb(96, 126, 143);
+  margin: 30px;
+  padding: 10px;
+  width: 600px;
+  height: 300px;
+  z-index: 20;
+}
+
+
+.contentPanel {
+  position: relative;
+  border-radius: 2px;
+  border: solid 1px #777;
+  background-color: #3fd6a6;
+  margin: 30px;
+  padding: 10px;
+  width: 520px;
+  height: 200px;
+  z-index: 30;
+}
+
+
+button {
+  font-family: inherit;
+  font-size: 100%;
+  padding: .5em 1em;
+  color: #fff;
+  color: rgba(0,0,0,.8);
+  border: 1px solid #999;
+  border: 0 rgba(0,0,0,0);
+  background-color: rgb(211, 120, 191);
+  text-decoration: none;
+  border-radius: 2px;
+  display: inline-block;
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button {
+  color: #fff;
+  background-color: #EEE;
+  border-color: #EEE;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 40px;
+  margin: 0;
+  display: inline-block;
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition-property: all;
+          transition-property: all;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  /*
+  * Disabled State
+  *
+  * The disabled state uses the class .disabled, is-disabled,
+  * and the form attribute disabled="disabled".
+  * The use of !important is only added because this is a state
+  * that must be applied to all buttons when in a disabled state.
+  */ }
+  .button:visited {
+    color: #fff; }
+  .button:hover, .button:focus {
+    background-color: #f6f6f6;
+    text-decoration: none;
+    outline: none; }
+  .button:active, .button.active, .button.is-active {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    background-color: #eeeeee;
+    border-color: #cfcfcf;
+    color: #fff;
+    -webkit-transition-duration: 0s;
+            transition-duration: 0s;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2); }
+  .button.disabled, .button.is-disabled, .button:disabled {
+    top: 0 !important;
+    background: #EEE !important;
+    border: 1px solid #DDD !important;
+    text-shadow: 0 1px 1px white !important;
+    color: #fff !important;
+    cursor: default !important;
+    appearance: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    opacity: .8 !important; }
+
+nav {
+  float:right;
+}
+a {
+  margin-right: 10px;
+  cursor: pointer;
+}
